@@ -32,5 +32,16 @@ html, body, .stage, .ring, .img {
     width: 100%;
     text-align:center;
     font-size: 50px;
+    font-family: 標楷體;
   }
-  
+  .indexvideo{
+    position: absolute;
+    width: 100%;
+    padding-top: 0%;
+    z-index: -9999;
+    opacity: 1;
+  }
+  .indexbody{
+    margin: 0;
+  }
+ 

@@ -1,17 +1,8 @@
 /* 搜尋列 */
-
-.search-up{
-    width: 48%;
-    margin-right: 2%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
 .search-btn{
     background-color: rgba(255, 255, 255, 0);
     border: 0px;
-    max-width: 50px;
+    max-width: 5%;
     width: 100%;
 }
 .search-img{
@@ -25,7 +16,7 @@
 /* 搜尋列 */
 
 /* 角色介紹 */
-.characters-background{
+.view-background{
     position: absolute;
     margin-left: 20%;
     width: 60%;
@@ -79,69 +70,121 @@
 }
 .a{
     margin-left: 28%;
-    margin-top: 5%;
+    margin-top: 2%;
     z-index: 1;
     position: absolute;
 }
 .b{
-    margin-left: 35.5%;
-    margin-top: 7%;
+    margin-left: 35%;
+    margin-top: 4%;
     z-index: 1;
     position: absolute;
 }
 .c{
     margin-left: 23%;
-    margin-top: 10%;
+    margin-top: 8%;
     z-index: 1;
     position: absolute;
 }
 .d{
     margin-left: 19%;
-    margin-top: 15%;
+    margin-top: 13%;
     z-index: 1;
     position: absolute;
 }
 .e{
     margin-left: 24%;
-    margin-top: 14%;
+    margin-top: 12%;
     z-index: 1;
     position: absolute;
 }
 .f{
     margin-left: 27.5%;
-    margin-top: 13%;
+    margin-top: 11%;
     z-index: 1;
     position: absolute;
 }
 .g{
     margin-left: 25%;
-    margin-top: 18%;
+    margin-top: 16%;
     z-index: 1;
     position: absolute;
 }
 .h{
     margin-left: 28.5%;
-    margin-top: 17.5%;
+    margin-top: 15.5%;
     z-index: 1;
     position: absolute;
 }
 .i{
-    margin-left: 24%;
-    margin-top: 20%;
+    margin-left: 23%;
+    margin-top: 18.5%;
     z-index: 1;
     position: absolute;
 }
 .j{
-    margin-left: 29.5%;
-    margin-top: 24%;
+    margin-left: 29%;
+    margin-top: 22.5%;
     z-index: 1;
     position: absolute;
 }
 .k{
     margin-left: 12%;
-    margin-top: 25%;
+    margin-top: 23%;
     z-index: 1;
     position: absolute;
 }
-
+@media screen and (max-width:1024px){
+    .map{
+        
+        width: 90%;
+        margin-left: 5%;
+    }
+    .search-btn{
+        max-width: 8%;
+    }
+    .a{
+        margin-left: 68%;
+    }
+    .b{
+        margin-left:77%;
+        margin-top: 12.5%;
+    }
+    .c{
+        margin-left:50%;
+        margin-top: 19%;
+    }
+    .d{
+        margin-left:43%;
+        margin-top: 29%;
+    }
+    .e{
+        margin-left:53%;
+        margin-top: 27%;
+    }
+    .f{
+        margin-left:60%;
+        margin-top: 28%;
+    }
+    .g{
+        margin-left:55%;
+        margin-top: 37%;
+    }
+    .h{
+        margin-left:62%;
+        margin-top: 36%;
+    }
+    .i{
+        margin-left:53%;
+        margin-top: 43%;
+    }
+    .j{
+        margin-left:65%;
+        margin-top: 51%;
+    }
+    .k{
+        margin-left:27%;
+        margin-top: 55%;
+    }
+}
 

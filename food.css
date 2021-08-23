@@ -1,3 +1,16 @@
 .title{
     text-align: center;
 }
+.m2{
+    margin-left: 5%;
+    margin-top: 1%;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+}
+.pic1{
+    height: 350px;
+    width: 600px;
+    margin-top: 1%;
+    margin-left: 10%;
+}

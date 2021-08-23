@@ -107,12 +107,12 @@
       width: 100%;
   }
   .topvideo{
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
   }
   .topyt{
     width: 100%;
-    height: 400px;
+    height: 500px;
   }
   .bg{
     background-image: url(https://www.newsmarket.com.tw/files/2019/04/%E8%98%AD%E9%99%BD%E5%8D%9A%E7%89%A9%E9%A4%A8uFF0F%E6%94%9D%E5%BD%B1%E8%80%85%E9%BB%83%E9%95%B7%E5%AF%8C.jpg);
@@ -124,4 +124,29 @@
     padding-top: 5%;
     z-index: -9999;
     opacity: 1;
+}
+#slider{
+  height: 500px;
+}
+.btndiv{
+  width: 80%;
+  margin-left: 10%;
+}
+.videobtn{
+  margin-left: 2.5%;
+  width: 30%;
+  height:5em
+}
+.hidediv{
+  width: 80%;
+  margin-left: 10%;
+}
+#view{
+  display: none;
+}
+#culture{
+  display: none;
+}
+#play{
+  display: none;
 }

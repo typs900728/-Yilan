@@ -46,11 +46,6 @@
     opacity: 1;
   }
   
-
-  
- 
- 
-  
   @media screen and (max-width: 993px) {
     #slider {
       width: 100%;
@@ -129,6 +124,7 @@
   height: 500px;
 }
 .btndiv{
+  margin-top: 30px;
   width: 80%;
   margin-left: 10%;
 }
@@ -140,6 +136,8 @@
 .hidediv{
   width: 80%;
   margin-left: 10%;
+  background-color: rgba(240, 248, 255, 0.705);
+  margin-top: 50px;
 }
 #view{
   display: none;
@@ -149,4 +147,7 @@
 }
 #play{
   display: none;
+}
+#container_front{
+  margin-top: 50px;
 }

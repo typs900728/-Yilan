@@ -19,5 +19,11 @@ body{
     height: 350px;
     width: 600px;
     margin-top: 1%;
-    margin-left: 10%;
+    margin-left: 15%;
+}
+.text{
+    width: 550px;
+    height: 200px; 
+    font-size: x-large;
+   margin-left : 20%; 
 }

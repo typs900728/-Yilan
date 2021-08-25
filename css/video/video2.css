@@ -1,0 +1,37 @@
+.top{
+    width: 101%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top:0;
+    height: 7vh;
+    margin: 0 auto;
+}
+.topbtn{
+    width: 16%;
+}
+.toplink{
+    height: 100%;
+    width: 100%;
+}
+.topbtnpic{height: 100%;
+    width: 100%;
+}
+.topbtn1{
+    margin-left: 10%;
+}
+.linkpic1:hover{
+    content: url(/共用圖片/首頁2.jpg);
+}
+.linkpic2:hover{
+    content: url(/共用圖片/景點2.jpg);
+}
+.linkpic3:hover{
+    content: url(/共用圖片/節慶2.jpg);
+}
+.linkpic4:hover{
+    content: url(/共用圖片/美食2.jpg);
+}
+.linkpic5:hover{
+    content: url(/共用圖片/影片2.jpg);
+}

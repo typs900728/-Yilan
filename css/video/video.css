@@ -151,3 +151,10 @@
 #container_front{
   margin-top: 50px;
 }
+.table{
+  width: 100%;
+}
+.th{
+  width: 50%;
+  height: 100px;
+}

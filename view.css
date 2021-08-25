@@ -186,7 +186,9 @@
         margin-left:27%;
         margin-top: 55%;
     }
+    
 }
+
 .bg{
     background-image: url(/view/bg.jpg);
     background-repeat: no-repeat;
@@ -214,4 +216,15 @@
 .mapword{
     width: 50%;
     height: 450;
+}
+@media screen and (max-width:1024px){
+    .googlemap{
+        display: block;
+    }
+    .maparea{
+        width: 100%;
+    }
+    .mapword{
+        width: 100%;
+    }
 }

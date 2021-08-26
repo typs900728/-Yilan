@@ -39,7 +39,10 @@
             </a>
         </div>
     </div>
-    <div class="topvideo">
+    <a class="upbtn" href="#first">
+        <img src="/共用圖片/upbtn.png" class="uppic">
+    </a>
+    <div class="topvideo" id="first">
         <iframe src="https://www.youtube.com/embed/l0h3wXADMoM?mute=1&autoplay=1" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -52,26 +55,103 @@
     </div>
     <div id="view" class="hidediv">
         <button class="backbtn" onclick="back1()">back</button>
-        風景
         <div class="viewvideo">
-            <table class="table">
-                <tr>
-                    <td class="td">
-                        <a href="https://youtu.be/f1TO-iqQDxY">
-                            <img src="http://img.youtube.com/vi/f1TO-iqQDxY/maxresdefault.jpg">
-                        </a>
-                    </td>
-                </tr>
-            </table>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/f1TO-iqQDxY">
+                        <img src="http://img.youtube.com/vi/f1TO-iqQDxY/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>宜蘭 風景空拍</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/vi0VLZAGV8w">
+                        <img src="http://img.youtube.com/vi/vi0VLZAGV8w/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>宜蘭 風景空拍縮時攝影</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/JnyzsoT1erA">
+                        <img src="https://img.youtube.com/vi/JnyzsoT1erA/sddefault.jpg"class="smallvideo">
+                    </a>
+                        <p>桃源谷大溪線往草嶺線一日縱走</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/mi7jtbEL_bs">
+                        <img src="http://img.youtube.com/vi/mi7jtbEL_bs/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>龍潭湖風景區</p>
+                </div>
+            </div>
         </div>
     </div>
     <div id="culture" class="hidediv">
         <button class="backbtn" onclick="back2()">back</button>
-        文化
+        <div class="viewvideo">
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/GPok0fQh1yA">
+                        <img src="http://img.youtube.com/vi/GPok0fQh1yA/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭傳統特產</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/s0YRqiFUrz0">
+                            <img src="https://img.youtube.com/vi/s0YRqiFUrz0/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>老宜蘭人的早午餐</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/jeCMTv3VoXI">
+                        <img src="http://img.youtube.com/vi/jeCMTv3VoXI/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭不老部落</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/SMzX62d5WTw">
+                        <img src="http://img.youtube.com/vi/SMzX62d5WTw/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>龜山島的故事</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="play" class="hidediv">
         <button class="backbtn" onclick="back3()">back</button>
-        旅遊
+        <div class="viewvideo">
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/-oC_0_swKfo">
+                        <img src="http://img.youtube.com/vi/-oC_0_swKfo/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭在地小吃</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/f1vEMkP_y3g">
+                        <img src="http://img.youtube.com/vi/f1vEMkP_y3g/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭傳藝中心</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/Qe8527Yvmo4">
+                        <img src="https://img.youtube.com/vi/Qe8527Yvmo4/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭國際童玩藝術節</p>
+                </div>
+                <div class="videotd">
+                    
+                    <a href="https://youtu.be/DIjGJlcmd1Y">
+                        <img src="http://img.youtube.com/vi/DIjGJlcmd1Y/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭冬山 斑比山丘</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="container_front">
         <div id="front">
@@ -158,6 +238,8 @@
                 </div>
 
             </div>
+            
+            
             <script>
                 $(function () {
                     $(".slide1").slider({
@@ -180,6 +262,8 @@
 
             </script>
         </div>
+    </div>
+        <div class="footer"><p>footer</p></div>
         <script>
             window.addEventListener('load', function () {
                 deSVG('.splash_logo', true);
@@ -195,7 +279,6 @@
                 $("#s-nav").removeClass('panelactive');
             });
         </script>
-
 </body>
 
 </html>

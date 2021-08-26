@@ -4,8 +4,8 @@
     background-color: rgb(255, 255, 255);
     position:fixed;
     top:0;
-    height: 7vh;
     margin: 0 auto;
+    height: 3vh;
 }
 .topbtn{
     width: 16%;
@@ -14,8 +14,8 @@
     height: 100%;
     width: 100%;
 }
-.topbtnpic{height: 100%;
-    width: 100%;
+.topbtnpic{
+    height: 100%;
 }
 .topbtn1{
     margin-left: 10%;
@@ -34,4 +34,24 @@
 }
 .linkpic5:hover{
     content: url(/共用圖片/影片2.jpg);
+}
+.upbtn{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+}
+.uppic{
+    width: 50px;
+    height: 50px;
+}
+.footer{
+    margin-top: 100px;
+    bottom: 0;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    width: 101%;
+    text-align: center;
+    height: 3vh;
+    align-items: center;
+    margin: 0 auto;
 }

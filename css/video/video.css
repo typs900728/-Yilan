@@ -131,7 +131,8 @@
 .videobtn{
   margin-left: 2.5%;
   width: 30%;
-  height:5em
+  height:5em;
+  border-radius: 15px;
 }
 .hidediv{
   width: 80%;
@@ -151,10 +152,27 @@
 #container_front{
   margin-top: 50px;
 }
-.table{
+.viewvideo{
   width: 100%;
 }
-.th{
-  width: 50%;
-  height: 100px;
+.videotable{
+  margin-top: 5%;
+  width: 100%;
+  display: flex;
+}
+.videotd{
+  margin-left: 10%;
+  width: 35%;
+  text-align: center;
+}
+.smallvideo{
+  width: 100%;
+  height: 70%;
+  border-radius: 15px;
+}
+.backbtn{
+  width: 7vh;
+  height: 5vh;
+  margin-top: 1vh;
+  margin-left: 1vh;
 }

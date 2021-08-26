@@ -50,8 +50,13 @@
     background-color: rgb(80, 80, 80);
     color: white;
     width: 101%;
+    height: 20vh;
+    display: flex;
     text-align: center;
-    height: 3vh;
     align-items: center;
     margin: 0 auto;
+}
+.footer-center{
+    width: 100%;
+    text-align: center;
 }

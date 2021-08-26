@@ -1,19 +1,38 @@
 body{
-    background-color: whitesmoke;
+    background-image: url(/food/蘭陽平原.jpg);
+    width: 90%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .title{
     text-align: center;
+    width: 100%;
+    margin-left: 5%;
 }
 .m2{
     margin-left: 5%;
     margin-top: 1%;
-    width: 90%;
+    width: 100%;
     align-items: center;
     text-align: center;
     background-color: sandybrown;
 }
-.name{
-    margin-top: 1%;
+.m3{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: sandybrown;
+}
+.m4{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: sandybrown;
 }
 .pic1{
     height: 350px;
@@ -22,8 +41,64 @@ body{
     margin-left: 15%;
 }
 .text{
-    width: 550px;
+    width: 600px;
     height: 200px; 
     font-size: x-large;
-   margin-left : 20%; 
+    margin-left : 15%; 
+}
+@media screen and (max-width:1600px){
+    h1{
+     
+    }
+    .m2{
+        width: 100%;
+    }
+    .m3{
+        width: 100%;
+       
+    }
+    .pic1{
+        width: 70%;
+        height: 300px;
+       
+    }
+    .text{
+        width: 350px;
+        height: 100px;
+        font-size: 1px;
+        margin-left: 20%;
+    } 
+    @media screen and (max-width:1100px) {
+        .pic1{
+            height: 200px;
+        }
+        .text{
+            width: 250px;
+            height: 100px;
+            font-size: 1px;
+            margin-left: 15%;
+        }
+    }   
+    @media screen and (max-width:700px) {
+        .pic1{
+            width: 80%;
+            height: 100px;
+           margin-left: 10%;
+        }
+        .text{
+            width: 210px;
+            height: 100px;
+            font-size: 1vmin;
+            margin-left: 15px;
+        }
+            @media screen and (max-width:500px) {
+                    .text{
+                        width: 160px;
+                        height: 100px;
+                        font-size: 1vmin;
+                        margin-left: 15px;
+                    }
+            }
+     }
+    
 }

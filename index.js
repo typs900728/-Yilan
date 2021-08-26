@@ -8,7 +8,7 @@ gsap.timeline()
       z: -500,
       backgroundPosition:(i)=>getBgPos(i),
       backfaceVisibility:'hidden'
-    })    
+    })
     .from('.img', {
       duration:1.5,
       y:200,

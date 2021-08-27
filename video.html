@@ -4,17 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="video.js"></script>
-    <link rel="stylesheet" href="video.css" />
+    <script src="/js/video/video.js"></script>
+    <script src="/js/video/video2.js"></script>
+    <link rel="stylesheet" href="/css/video/video.css" />
+    <link rel="stylesheet" href="/css/video/video2.css" />
     <title>video</title>
 </head>
 
-<body data-rsssl=1 class="home blog locale-ja hfeed body bg">
-    <div class="topvideo">
+<body class="body bg">
+    <div class="top">
+        <div class="topbtn topbtn1">
+            <a href="index.html" class="toplink link1">
+                <img src="/共用圖片/首頁1.jpg" class="topbtnpic linkpic1">
+            </a>
+        </div>
+        <div class="topbtn">
+            <a href="view.html" class="toplink link2">
+                <img src="/共用圖片/景點1.jpg" class="topbtnpic linkpic2">
+            </a>
+        </div>
+        <div class="topbtn">
+            <a href="celebration.html" class="toplink link3">
+                <img src="/共用圖片/節慶1.jpg" class="topbtnpic linkpic3">
+            </a>
+        </div>
+        <div class="topbtn">
+            <a href="food.html" class="toplink link4">
+                <img src="/共用圖片/美食1.jpg" class="topbtnpic linkpic4">
+            </a>
+        </div>
+        <div class="topbtn">
+            <a href="video.html" class="toplink link5">
+                <img src="/共用圖片/影片1.jpg" class="topbtnpic linkpic5">
+            </a>
+        </div>
+    </div>
+    <a class="upbtn" href="#first">
+        <img src="/共用圖片/upbtn.png" class="uppic">
+    </a>
+    <div class="topvideo" id="first">
         <iframe src="https://www.youtube.com/embed/l0h3wXADMoM?mute=1&autoplay=1" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen class="topyt"></iframe>
+    </div>
+    <div class="btndiv">
+        <button class="videobtn" onclick="btnFunction1()">風景</button>
+        <button class="videobtn" onclick="btnFunction2()">文化</button>
+        <button class="videobtn" onclick="btnFunction3()">旅遊</button>
+    </div>
+    <div id="view" class="hidediv">
+        <button class="backbtn" onclick="back1()">back</button>
+        <div class="viewvideo">
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/f1TO-iqQDxY">
+                        <img src="http://img.youtube.com/vi/f1TO-iqQDxY/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>宜蘭 風景空拍</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/vi0VLZAGV8w">
+                        <img src="http://img.youtube.com/vi/vi0VLZAGV8w/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>宜蘭 風景空拍縮時攝影</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/JnyzsoT1erA">
+                        <img src="https://img.youtube.com/vi/JnyzsoT1erA/sddefault.jpg"class="smallvideo">
+                    </a>
+                        <p>桃源谷大溪線往草嶺線一日縱走</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/mi7jtbEL_bs">
+                        <img src="http://img.youtube.com/vi/mi7jtbEL_bs/maxresdefault.jpg"class="smallvideo">
+                    </a>
+                        <p>龍潭湖風景區</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="culture" class="hidediv">
+        <button class="backbtn" onclick="back2()">back</button>
+        <div class="viewvideo">
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/GPok0fQh1yA">
+                        <img src="http://img.youtube.com/vi/GPok0fQh1yA/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭傳統特產</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/s0YRqiFUrz0">
+                            <img src="https://img.youtube.com/vi/s0YRqiFUrz0/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>老宜蘭人的早午餐</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/jeCMTv3VoXI">
+                        <img src="http://img.youtube.com/vi/jeCMTv3VoXI/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭不老部落</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/SMzX62d5WTw">
+                        <img src="http://img.youtube.com/vi/SMzX62d5WTw/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>龜山島的故事</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="play" class="hidediv">
+        <button class="backbtn" onclick="back3()">back</button>
+        <div class="viewvideo">
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/-oC_0_swKfo">
+                        <img src="http://img.youtube.com/vi/-oC_0_swKfo/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭在地小吃</p>
+                </div>
+                <div class="videotd">
+                    <a href="https://youtu.be/f1vEMkP_y3g">
+                        <img src="http://img.youtube.com/vi/f1vEMkP_y3g/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭傳藝中心</p>
+                </div>
+            </div>
+            <div class="videotable">
+                <div class="videotd">
+                    <a href="https://youtu.be/Qe8527Yvmo4">
+                        <img src="https://img.youtube.com/vi/Qe8527Yvmo4/sddefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭國際童玩藝術節</p>
+                </div>
+                <div class="videotd">
+                    
+                    <a href="https://youtu.be/DIjGJlcmd1Y">
+                        <img src="http://img.youtube.com/vi/DIjGJlcmd1Y/maxresdefault.jpg" class="smallvideo">
+                    </a>
+                        <p>宜蘭冬山 斑比山丘</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="container_front">
         <div id="front">
@@ -24,19 +161,23 @@
                         <ul class="slideGuide up">
                             <li class="slideCell"><a href="https://youtu.be/f1TO-iqQDxY">
                                     <img src="http://img.youtube.com/vi/f1TO-iqQDxY/maxresdefault.jpg" class="videopic">
-                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877800558231175188/unknown.png" class="active">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/879337714175070278/unknown.png"
+                                        class="active">
                                 </a></li>
                             <li class="slideCell"><a href="https://youtu.be/vi0VLZAGV8w">
                                     <img src="http://img.youtube.com/vi/vi0VLZAGV8w/maxresdefault.jpg" class="videopic">
-                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877801134968946718/unknown.png" class="active">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/879337920526426173/unknown.png"
+                                        class="active">
                                 </a></li>
-                                <li class="slideCell"><a href="https://youtu.be/JnyzsoT1erA">
+                            <li class="slideCell"><a href="https://youtu.be/JnyzsoT1erA">
                                     <img src="https://img.youtube.com/vi/JnyzsoT1erA/sddefault.jpg" class="videopic">
-                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877801507750314025/unknown.png" class="active">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/879338114873696286/unknown.png"
+                                        class="active">
                                 </a></li>
                             <li class="slideCell"><a href="https://youtu.be/mi7jtbEL_bs">
                                     <img src="http://img.youtube.com/vi/mi7jtbEL_bs/maxresdefault.jpg" class="videopic">
-                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877801754446692372/unknown.png" class="active">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/879338292645072976/unknown.png"
+                                        class="active">
                                 </a></li>
 
                         </ul>
@@ -46,87 +187,98 @@
                     <div class="slideFrame slide2">
                         <ul class="slideGuide up">
                             <li class="slideCell"><a href="https://youtu.be/GPok0fQh1yA">
-                                <img src="http://img.youtube.com/vi/GPok0fQh1yA/maxresdefault.jpg" class="videopic">
-                                <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802258719469609/unknown.png" class="active">
-                            </a></li>
-                        <li class="slideCell"><a href="https://youtu.be/DIjGJlcmd1Y">
-                                <img src="http://img.youtube.com/vi/DIjGJlcmd1Y/maxresdefault.jpg" class="videopic">
-                                <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802448025169950/unknown.png" class="active">
-                            </a></li>
+                                    <img src="http://img.youtube.com/vi/GPok0fQh1yA/maxresdefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802258719469609/unknown.png"
+                                        class="active">
+                                </a></li>
+                            <li class="slideCell"><a href="https://youtu.be/DIjGJlcmd1Y">
+                                    <img src="http://img.youtube.com/vi/DIjGJlcmd1Y/maxresdefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802448025169950/unknown.png"
+                                        class="active">
+                                </a></li>
                             <li class="slideCell"><a href="https://youtu.be/Qe8527Yvmo4">
-                                <img src="https://img.youtube.com/vi/Qe8527Yvmo4/sddefault.jpg" class="videopic">
-                                <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802772127416360/unknown.png" class="active">
-                            </a></li>
-                        <li class="slideCell"><a href="https://youtu.be/SMzX62d5WTw">
-                                <img src="http://img.youtube.com/vi/SMzX62d5WTw/maxresdefault.jpg" class="videopic">
-                                <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802920295407616/unknown.png" class="active">
-                            </a></li>
+                                    <img src="https://img.youtube.com/vi/Qe8527Yvmo4/sddefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802772127416360/unknown.png"
+                                        class="active">
+                                </a></li>
+                            <li class="slideCell"><a href="https://youtu.be/SMzX62d5WTw">
+                                    <img src="http://img.youtube.com/vi/SMzX62d5WTw/maxresdefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877802920295407616/unknown.png"
+                                        class="active">
+                                </a></li>
                         </ul>
-                         </div>
-
-                            <div class="slideFrame slide3">
-                                <ul class="slideGuide up">
-                                    <li class="slideCell"><a href="https://youtu.be/-oC_0_swKfo">
-                                        <img src="http://img.youtube.com/vi/-oC_0_swKfo/maxresdefault.jpg" class="videopic">
-                                        <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803081839050772/unknown.png" class="active">
-                                    </a></li>
-                                <li class="slideCell"><a href="https://youtu.be/f1vEMkP_y3g">
-                                        <img src="http://img.youtube.com/vi/f1vEMkP_y3g/sddefault.jpg" class="videopic">
-                                        <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803293202583552/unknown.png" class="active">
-                                    </a></li>
-                                    <li class="slideCell"><a href="https://youtu.be/s0YRqiFUrz0">
-                                        <img src="https://img.youtube.com/vi/s0YRqiFUrz0/sddefault.jpg" class="videopic">
-                                        <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803482567036960/unknown.png" class="active">
-                                    </a></li>
-                                <li class="slideCell"><a href="https://youtu.be/jeCMTv3VoXI">
-                                        <img src="http://img.youtube.com/vi/jeCMTv3VoXI/sddefault.jpg" class="videopic">
-                                        <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803606613590016/unknown.png" class="active">
-                                    </a></li>
-
-                                </ul>
-
-                            </div>
                     </div>
 
-                </div>
-                <script>
-                    $(function () {
-                        $(".slide1").slider({
-                            direction: "up",
-                            time: "20",
-                            speed: 5,
-                        });
+                    <div class="slideFrame slide3">
+                        <ul class="slideGuide up">
+                            <li class="slideCell"><a href="https://youtu.be/-oC_0_swKfo">
+                                    <img src="http://img.youtube.com/vi/-oC_0_swKfo/maxresdefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803081839050772/unknown.png"
+                                        class="active">
+                                </a></li>
+                            <li class="slideCell"><a href="https://youtu.be/f1vEMkP_y3g">
+                                    <img src="http://img.youtube.com/vi/f1vEMkP_y3g/sddefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803293202583552/unknown.png"
+                                        class="active">
+                                </a></li>
+                            <li class="slideCell"><a href="https://youtu.be/s0YRqiFUrz0">
+                                    <img src="https://img.youtube.com/vi/s0YRqiFUrz0/sddefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803482567036960/unknown.png"
+                                        class="active">
+                                </a></li>
+                            <li class="slideCell"><a href="https://youtu.be/jeCMTv3VoXI">
+                                    <img src="http://img.youtube.com/vi/jeCMTv3VoXI/sddefault.jpg" class="videopic">
+                                    <img src="https://cdn.discordapp.com/attachments/848479963355021352/877803606613590016/unknown.png"
+                                        class="active">
+                                </a></li>
 
-                        $(".slide2").slider({
-                            direction: "up",
-                            time: "20",
-                            speed: 5,
-                        });
-                        $(".slide3").slider({
-                            direction: "up",
-                            time: "20",
-                            speed: 5,
-                        });
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            
+            
+            <script>
+                $(function () {
+                    $(".slide1").slider({
+                        direction: "up",
+                        time: "20",
+                        speed: 5,
                     });
 
-                </script>
-            </div>
-            <script>
-                window.addEventListener('load', function () {
-                    deSVG('.splash_logo', true);
+                    $(".slide2").slider({
+                        direction: "up",
+                        time: "20",
+                        speed: 5,
+                    });
+                    $(".slide3").slider({
+                        direction: "up",
+                        time: "20",
+                        speed: 5,
+                    });
                 });
 
-                $(".openbtn").click(function () {
-                    $(this).toggleClass('active');
-                    $("#s-nav").toggleClass('panelactive');
-                });
-
-                $("#s-nav a").click(function () {
-                    $(".openbtn").removeClass('active');
-                    $("#s-nav").removeClass('panelactive');
-                });
             </script>
+        </div>
+    </div>
+        <div class="footer"><p class="footer-center">Made by redball</p></div>
+        <script>
+            window.addEventListener('load', function () {
+                deSVG('.splash_logo', true);
+            });
 
+            $(".openbtn").click(function () {
+                $(this).toggleClass('active');
+                $("#s-nav").toggleClass('panelactive');
+            });
+
+            $("#s-nav a").click(function () {
+                $(".openbtn").removeClass('active');
+                $("#s-nav").removeClass('panelactive');
+            });
+        </script>
 </body>
 
 </html>

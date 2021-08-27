@@ -1,0 +1,200 @@
+.balance{
+    display: flex;
+    margin: auto;
+}
+.area{
+    position: fixed;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 4%;
+    margin-top: 0%;
+    z-index: 2;
+}
+.area1{
+    position: fixed;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 28%;
+    margin-top: 0%;
+    z-index: 2;
+}
+.area2{
+    position: fixed;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 52%;
+    margin-top: 0%;
+    z-index: unset;
+}
+.area3{
+    position: fixed;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 76%;
+    margin-top: 0%;
+    z-index: unset;
+}
+
+.arrow-case-a{
+    position: fixed;
+    -webkit-animation: shaking 5s infinite;
+    z-index: 50;
+}
+.pt{
+    width: 100%;
+}
+
+@keyframes shaking{
+
+    0%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+.arrow-case-b{
+    position: fixed;
+    -webkit-animation: shakinga 5s infinite;
+    z-index: 50;
+}
+.word1{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    display: none;
+    color: white;
+    z-index: 0;
+}
+.word2{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    display: none;
+    color: white;
+    z-index: 0;
+}
+.word3{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.word4{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    display: none;
+}
+.area:hover .word1{
+    animation-name: ani;
+    animation-duration: 1s;
+    display: block;
+}
+.area1:hover .word2{
+    animation-name: ani;
+    animation-duration: 1s;
+    display: block;
+}
+.area2:hover .word3{
+    animation-name: ani;
+    animation-duration: 1s;
+    display: block;
+}
+.area3:hover .word4{
+    animation-name: ani;
+    animation-duration: 1s;
+    display: block;
+}
+
+@keyframes shakinga{
+
+    0%{
+        transform: translateY(30px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+@media screen and (max-width:1024px) {
+    .area{
+        width: 20%;
+        margin-left: 20%;
+        margin-top: 0%;
+    }
+    .area1{
+        width: 20%;
+        margin-left: 60%;
+        margin-top: 0%;
+    }
+    .area2{
+        width: 20%;
+        margin-left: 10%;
+        margin-top: 49%;
+    }
+    .area3{
+        width: 20%;
+        margin-left: 50%;
+        margin-top: 49%;
+    }
+}
+@media screen and (max-width:658px) {
+    .area{
+        width: 30%;
+        margin-left: 6.7%;
+    }
+    .area1{
+        width: 30%;
+        margin-left: 53.4%;
+    }
+    .area2{
+        width: 30%;
+        margin-left: 4%;
+        margin-top: 72%;
+    }
+    .area3{
+        width: 30%;
+        margin-left: 50.7%;
+        margin-top: 72%;
+    }
+}
+@media screen and (max-width:484px) {
+    .area{
+        width: 40%;
+        margin-left: 6.7%;
+    }
+    .area1{
+        width: 40%;
+        margin-left: 53.4%;
+    }
+    .area2{
+        width: 40%;
+        margin-left: 4%;
+        margin-top: 100%;
+    }
+    .area3{
+        width: 40%;
+        margin-left: 50.7%;
+        margin-top: 100%;
+    }
+}
+.bg{
+    background-image: url(/index/indexbg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 99%;
+    padding-top: 5%;
+    z-index: -9999;
+    opacity: 1;
+    margin-left: 0px;
+}

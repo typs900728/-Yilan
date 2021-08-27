@@ -134,12 +134,14 @@
   width: 30%;
   height:5em;
   border-radius: 15px;
+  font-size: 15px;
 }
 .hidediv{
   width: 80%;
   margin-left: 10%;
   background-color: rgba(240, 248, 255, 0.705);
   margin-top: 50px;
+  border-radius: 15px;
 }
 #view{
   display: none;
@@ -173,7 +175,7 @@
 }
 .backbtn{
   width: 7vh;
-  height: 5vh;
+  height: 2vh;
   margin-top: 1vh;
   margin-left: 1vh;
 }

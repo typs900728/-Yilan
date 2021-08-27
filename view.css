@@ -202,7 +202,8 @@
     margin-left: 0px;
 }
 .googlemap{
-    position: absolute;
+    position: relative;
+
     width: 90%;
     margin-left: 5%;
     display: flex;
@@ -227,4 +228,17 @@
     .mapword{
         width: 100%;
     }
+}
+
+.footer-index{ 
+    background-color: rgb(80, 80, 80);
+    position: relative;
+    color: white;
+    width: 101%;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+    bottom: -10px;
 }

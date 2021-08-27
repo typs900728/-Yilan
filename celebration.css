@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: inherit;
+    background-position: top center;
     margin: 0px;
 }
 .content{

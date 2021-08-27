@@ -40,6 +40,7 @@
     position: fixed;
     right: 5px;
     bottom: 5px;
+    z-index: 15;
 }
 .uppic{
     width: 50px;

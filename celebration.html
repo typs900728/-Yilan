@@ -36,8 +36,12 @@
                 <img src="/共用圖片/影片1.jpg" class="topbtnpic linkpic5">
             </a>
         </div>
-    </div>    
-    <div class="content">
+    </div>
+    <a class="upbtn" href="#up">
+        <img src="/共用圖片/upbtn.png" class="uppic">
+    </a>
+<!-- TOP -->
+    <div id="up" class="content">
         <div class="div-picture">
         <img class="picture" src="celebration-picture/利澤簡.jpg">
         </div>
@@ -51,7 +55,7 @@
             </p>
         </div>
     </div>
-
+<!-- 內容 -->
     <div class="list">
         <div class="div-btn">
             <button class="btn-1 btn"><img class="btn-pic" src="celebration-picture/利澤簡 2.jpg"></button>
@@ -97,9 +101,24 @@
             <button class="btn-9 btn"><img class="btn-pic" src="celebration-picture/礁溪溫泉季.jpg"></button>
             <p>礁溪溫泉季</p>
         </div>
-
     </div>
+<!-- 清單 -->
+    <div class="footer"><p class="footer-center">回到上面</p></div>
+    <script>
+        window.addEventListener('load', function () {
+            deSVG('.splash_logo', true);
+        });
 
-    
+        $(".openbtn").click(function () {
+            $(this).toggleClass('active');
+            $("#s-nav").toggleClass('panelactive');
+        });
+
+        $("#s-nav a").click(function () {
+            $(".openbtn").removeClass('active');
+            $("#s-nav").removeClass('panelactive');
+        });
+    </script>
+<!-- footer -->
 </body>
 </html>

@@ -46,6 +46,34 @@ body{
     content: url(/共用圖片/影片2.jpg);
 }
 /* TOP */
+.upbtn{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 15;
+}
+.uppic{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 55px;
+    background-color: rgba(76, 155, 89, 0.664);
+    color: white;
+    width: 15%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.footer-center{
+    width: 100%;
+    text-align: center;
+}
+/* footer */
 .content{
     background-color: rgba(0,0,0,0.7);
     margin-top:75px ;

@@ -132,9 +132,8 @@
 .videobtn{
   margin-left: 2.5%;
   width: 30%;
-  height:5em;
   border-radius: 15px;
-  font-size: 15px;
+  font-size: 30px;
 }
 .hidediv{
   width: 80%;

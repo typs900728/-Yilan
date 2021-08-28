@@ -6,6 +6,46 @@ body{
     background-position: top center;
     margin: 0px;
 }
+
+.top{
+    width: 101%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top:0;
+    margin: 0 auto;
+    height: 3vh;
+    z-index: 10;
+}
+.topbtn{
+    width: 16%;
+}
+.toplink{
+    height: 100%;
+    width: 100%;
+}
+.topbtnpic{
+    height: 100%;
+}
+.topbtn1{
+    margin-left: 10%;
+}
+.linkpic1:hover{
+    content: url(/共用圖片/首頁2.jpg);
+}
+.linkpic2:hover{
+    content: url(/共用圖片/景點2.jpg);
+}
+.linkpic3:hover{
+    content: url(/共用圖片/節慶2.jpg);
+}
+.linkpic4:hover{
+    content: url(/共用圖片/美食2.jpg);
+}
+.linkpic5:hover{
+    content: url(/共用圖片/影片2.jpg);
+}
+/* TOP */
 .content{
     background-color: rgba(0,0,0,0.7);
     margin-top:75px ;
@@ -16,7 +56,7 @@ body{
 }
 .div-picture{
     width: 40%;
-    height: 45vh;
+    height: 40vh;
 }
 .picture{
     width: 100%;
@@ -78,11 +118,12 @@ body{
 
 @media screen and (max-width:1000px){
     .btn{
-        width: 25vw;
+        width: 30vw;
     }
     /* 清單 */
     .div-picture{
         width: 80%;
+        height: 40vh;
         margin-left: 10%;
     }
     /* 內容 */
@@ -92,11 +133,15 @@ body{
     .div-picture{
         width: 100%;
         margin-left: 1px;
+        height: 42.5vh;
     }
     /* 內容 */
 }
-
-@media screen and (max-width:560px){
+@media screen and (max-width:690px){
+    .div-picture{
+        height: 37.5vh;
+    }
+    /* 內容 */
     .list{
         width: 90%;
         margin-left: 5%;
@@ -106,6 +151,14 @@ body{
     .btn{
         width: 50vw;
     }
+     /* 清單 */
+}
+
+@media screen and (max-width:560px){
+    
+    .btn{
+        width: 60vw;
+    }
     /* 清單 */
     .content{
         width: 90%;
@@ -113,30 +166,40 @@ body{
         margin-right: 5%;
     }
     .div-picture{
-        height: 40vh;
+        height: 35vh;
     }
     /* 內容 */
 }
 
 @media screen and (max-width:400px){
     .div-picture{
-        height: 35vh;
+        height: 30vh;
     }
     /* 內容 */
+    .btn{
+        width: 70vw;
+    }
+    /* 清單 */
 }
 @media screen and (max-width:340px){
     .div-picture{
         height: 27vh;
     }
     /* 內容 */
+    .btn{
+        width: 80vw;
+    }
+    /* 清單 */
 }
 
 @media screen and (min-height:1300px){
     .div-picture{
         height: 45%;
     }
+     /* 內容 */
     .btn{
         width: 25vw;
     }
+    /* 清單 */
 }
 /* media screen */

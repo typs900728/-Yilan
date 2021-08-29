@@ -124,10 +124,10 @@ body{
 /* 通常css */
 @media screen and (max-width:1220px){
     .list{
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 100%;
     }
     .btn{
-        width: 20vw;
+        width: 25vw;
     }
     /* 清單 */
     .content{
@@ -164,6 +164,9 @@ body{
         height: 42.5vh;
     }
     /* 內容 */
+    .btn{
+        width: 35vw;
+    }
 }
 @media screen and (max-width:690px){
     .div-picture{
@@ -174,10 +177,10 @@ body{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
-        grid-template-columns: 100%;
+        
     }
     .btn{
-        width: 50vw;
+        width: 45vw;
     }
      /* 清單 */
 }
